@@ -1,0 +1,63 @@
+:root {
+    --blue: #D5E1EF;
+    --white: #ffffff;
+
+    --custom-blue-bg: #D5E1EF;
+
+    /* colors given below did not match image specs */
+    --white-bg: hsl(0, 0%, 100%);
+    --light-gray: hsl(212, 45%, 89%);
+    --grayish-blue: hsl(220, 15%, 55%);
+    --dark-blue: hsl(218, 44%, 22%);
+}
+
+
+html {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+body {
+    box-sizing: inherit;
+    margin: 0;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--custom-blue-bg);
+}
+
+/*
+.card
+.card-header {
+    /
+}
+
+
+.card-header img {
+    /
+}
+
+.card-body {
+    /
+}
+.body-header {
+    /
+}
+.body-content {
+    /
+}
+*/
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
